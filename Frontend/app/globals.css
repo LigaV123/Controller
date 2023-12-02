@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/extras/ttf/Inter-Regular.ttf') format('truetype');
+  /* Add other font formats (woff, woff2, etc.) for cross-browser compatibility */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Inter';
+}
+
+
